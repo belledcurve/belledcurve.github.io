@@ -1,0 +1,74 @@
+/** fonts **/
+@font-face { /*조선일보명조체*/
+  font-family: "Chosun";
+  src: url("https://belledcurve.github.io/fonts/ChosunNM.ttf") format("truetype");
+  font-weight: normal;
+} 
+
+@font-face { /*Jetbrains Mono*/
+  font-family: "Jetbrains";
+  src: url("https://belledcurve.github.io/fonts/JetBrainsMono-Regular.ttf") format("truetype");
+  font-weight: normal;
+} 
+
+@font-face { /*Freight Big Pro Bold*/
+  font-family: "Freight";
+  src: url("https://belledcurve.github.io/fonts/FreightBigProBold-Regular.ttf") format("truetype");
+  font-weight: normal;
+} 
+
+@font-face { /*가나 초콜릿체*/
+  font-family: "Ghana";
+  src: url("https://belledcurve.github.io/fonts/Ghanachocolate.ttf") format("truetype");
+  font-weight: normal;
+} 
+/** end of fonts **/
+
+
+		.upper {
+		position: static;
+		margin-left: 3%;
+		line-height: 250%;
+		word-spacing: -37px;
+		font-family: Freight;
+		font-size: 50px;
+		font-weight: bold;
+		writing-mode: vertical-rl;
+}
+
+
+		.lower {
+		position: static;
+		margin-left: 3%;
+		line-height: 150%;
+		word-spacing: -37px;
+		margin-top: -100%;
+		padding-top: -100%;
+		font-family: Freight;
+		font-size: 50px;
+		font-weight:  bold;
+		writing-mode: vertical-rl;
+}
+
+
+		.text {
+		position: relative;
+		margin-left: 5%;
+		color: black;
+		font-family: Ghana;
+		font-size: 35px;
+		padding-top: 20%;
+}
+
+
+		.image {
+		position: relative;
+		top: 0;
+		width: 105%;
+		height: 350px;
+		margin: -7px;
+		object-fit: cover;
+		object-position: 50% 60%;
+		filter: grayscale(85%);
+		}
+
