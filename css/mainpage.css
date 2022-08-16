@@ -1,25 +1,25 @@
 /** fonts **/
 @font-face { /*조선일보명조체*/
   font-family: "Chosun";
-  src: url("fonts/ChosunNM.ttf") format("truetype");
+  src: url("https://belledcurve.github.io/fonts/ChosunNM.ttf") format("truetype");
   font-weight: normal;
 } 
 
 @font-face { /*Jetbrains Mono*/
   font-family: "Jetbrains";
-  src: url("fonts/JetBrainsMono-Regular.ttf") format("truetype");
+  src: url("https://belledcurve.github.io/fonts/JetBrainsMono-Regular.ttf") format("truetype");
   font-weight: normal;
 } 
 
 @font-face { /*Freight Big Pro Bold*/
   font-family: "Freight";
-  src: url("fonts/FreightBigProBold-Regular.ttf") format("truetype");
+  src: url("https://belledcurve.github.io/fonts/FreightBigProBold-Regular.ttf") format("truetype");
   font-weight: normal;
 } 
 
 @font-face { /*가나 초콜릿체*/
   font-family: "Ghana";
-  src: url("fonts/Ghanachocolate.ttf") format("truetype");
+  src: url("https://belledcurve.github.io/fonts/Ghanachocolate.ttf") format("truetype");
   font-weight: normal;
 } 
 /** end of fonts **/
