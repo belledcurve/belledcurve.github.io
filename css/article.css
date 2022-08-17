@@ -19,7 +19,8 @@
 
 @font-face { /*Freight Big Pro Bold*/
   font-family: "Freight";
-  src: url("https://belledcurve.github.io/fonts/FreightBigProBold-Regular.ttf") format("truetype");
+  src: url("https://belledcurve.github.io/fonts/FreightBigProBold-Regular.ttf") format("truetype"); 
+  src: url("https://belledcurve.github.io/fonts/FreightBigProBold-Regular.woff") format("woff"); 
   font-weight: normal;
 } 
 
