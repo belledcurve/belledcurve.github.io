@@ -1,29 +1,10 @@
 /** fonts **/
-@font-face { /*조선일보명조체*/
-  font-family: "Chosun";
-  src: url("https://belledcurve.github.io/fonts/ChosunNm.ttf") format("truetype");
-  font-weight: normal;
-} 
 
 @font-face { /*바탕체*/
   font-family: 'Batang';
   font-style: normal;
   src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFM.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFM.woff') format('woff');
 }
-
-@font-face { /*Jetbrains Mono*/
-  font-family: "Jetbrains";
-  src: url("https://belledcurve.github.io/fonts/JetBrainsMono-Regular.ttf") format("truetype");
-  font-weight: normal;
-} 
-
-@font-face { /*Freight Big Pro Bold*/
-  font-family: "Freight";
-  src: url("https://belledcurve.github.io/fonts/FreightBigProBold-Regular.ttf") format("truetype"),
-       url("https://belledcurve.github.io/fonts/FreightBigProBold-Regular.woff") format("woff"), 
-       url("https://belledcurve.github.io/fonts/FreightBigProBold-Regular.woff2") format("woff2");
-  font-weight: normal;
-} 
 
 @font-face { /*Freight Big Pro Bold*/
   font-family: "Freight";
