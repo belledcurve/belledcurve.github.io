@@ -6,10 +6,10 @@
 } 
 
 @font-face { /*바탕체*/
-  font-family: "Batang";
-  src: url("https://belledcurve.github.io/fonts/BareunBatangL.ttf") format("truetype");
-  font-weight: normal;
-} 
+  font-family: 'Batang';
+  font-style: normal;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFM.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFM.woff') format('woff');
+}
 
 @font-face { /*Jetbrains Mono*/
   font-family: "Jetbrains";
