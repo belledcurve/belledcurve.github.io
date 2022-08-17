@@ -36,13 +36,44 @@
 		}
 
 
+		.upper {
+		color: crimson;
+		line-height: 250%;
+		word-spacing: -37px;
+		font-family: Freight;
+		font-size: 70px;
+		font-weight: bold;
+		writing-mode: vertical-rl;
+}
+
+
+		.lower {
+		color: crimson;
+		line-height: 150%;
+		word-spacing: -37px;
+		top: 0;
+		margin-top: -450px;
+		font-family: Freight;
+		font-size: 70px;
+		font-weight: bold;
+		writing-mode: vertical-rl;
+}
+
+		.upper:hover {
+		color: black;
+		}
+
+		.lower:hover {
+		color: black;
+		}
+
+
 		aside {
-		float: left;
-		position: sticky;
-		position: -webkit-sticky;
-		top: 0;	/** this is what makes the function work. I still don't know why **/
-		padding-top: 5%;
-		padding-left: 5%;
+			float: left;
+			position: fixed;
+			top: 2%;
+			padding-left: 20px;
+			z-index: 2;
 		}
 
 
@@ -58,13 +89,43 @@
 	
 
 		.text {
-		position: static;
+		position: relative;
 		top: 0;
 		float: left;
 		color: black;
 		font-family: Chosun;
-		font-size: 15px;
-		padding-left: 170px;
+		font-size: 17px;
+		margin-left: 170px;
 		padding-right: 20%;
+		z-index: 1;
 }
 
+
+		.rightpointer {
+		float: right;
+		color: black;
+		font-family: Ghana;
+		font-size: 17px;
+}
+
+
+		.leftpointer {
+		float: left;
+		color: black;
+		font-family: Ghana;
+		font-size: 17px;
+		padding-left: 0px;
+}
+
+
+		.rightpointer:hover {
+		color: crimson;
+}
+
+
+		.leftpointer:hover {
+		color: crimson;
+}
+
+		a:hover {text-decoration: none;}
+		a {text-decoration: none; color: black;}
