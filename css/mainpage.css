@@ -1,4 +1,15 @@
 /** fonts **/
+@font-face { /*조선일보명조체*/
+  font-family: "Chosun";
+  src: url("https://belledcurve.github.io/fonts/ChosunNm.ttf") format("truetype");
+  font-weight: normal;
+} 
+
+@font-face { /*Jetbrains Mono*/
+  font-family: "Jetbrains";
+  src: url("https://belledcurve.github.io/fonts/JetBrainsMono-Regular.ttf") format("truetype");
+  font-weight: normal;
+} 
 
 @font-face { /*Freight Big Pro Bold*/
   font-family: "Freight";
@@ -8,20 +19,14 @@
   font-weight: normal;
 } 
 
-@font-face { /*Ghana*/
-  font-family: "Ghana";
-  src: url("../fonts/Ghanachocolate.ttf") format("truetype"),
-       url("../fonts/Ghanachocolate.woff") format("woff"), 
-       url("../fonts/Ghanachocolate.woff2") format("woff2");
-  font-weight: normal;
-} 
-
 @font-face {
     font-family: 'Ghana';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ghanachoco.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
+
+
 /** end of fonts **/
 
 
@@ -30,7 +35,6 @@
 		word-spacing: -37px;
 		font-family: Freight;
 		font-size: 150px;
-		font-weight: bold;
 		writing-mode: vertical-rl;
 }
 
@@ -42,7 +46,6 @@
 		padding-top: -100%;
 		font-family: Freight;
 		font-size: 150px;
-		font-weight: bold;
 		writing-mode: vertical-rl;
 }
 
