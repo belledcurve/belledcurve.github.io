@@ -7,6 +7,8 @@
     font-style: normal;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300&display=swap');
+
 @font-face { /*바탕체*/
   font-family: 'Batang';
   font-style: normal;
