@@ -1,0 +1,86 @@
+/** fonts **/
+
+@font-face { /*Freight Big Pro Bold*/
+  font-family: "Freight";
+  src: url("../fonts/FreightBigProBold-Regular.ttf") format("truetype"),
+       url("../fonts/FreightBigProBold-Regular.woff") format("woff"), 
+       url("../fonts/FreightBigProBold-Regular.woff2") format("woff2");
+  font-weight: normal;
+} 
+
+@font-face {
+    font-family: 'Ghana';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ghanachoco.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
+
+/** end of fonts **/
+
+
+
+
+
+		.upper {
+		line-height: 250%;
+		word-spacing: -37px;
+		font-family: Freight;
+		font-size: 150px;
+		font-weight: bold;
+		writing-mode: vertical-rl;
+}
+
+
+		.lower {
+		line-height: 150%;
+		word-spacing: -37px;
+		margin-top: -100%;
+		padding-top: -100%;
+		font-family: Freight;
+		font-size: 150px;
+		font-weight: bold;
+		writing-mode: vertical-rl;
+}
+
+		.upper1 {
+		position: fixed;
+		top: 70%; left: 40%;
+		line-height: 0%;
+		font-family: Freight;
+		font-size: 70px;
+		font-weight: bold;
+		float: right;
+		color: black;
+}
+
+
+		.lower1 {
+		position: fixed;
+		top: 72%; left: 40%;
+		line-height: 30%;
+		font-family: Freight;
+		font-size: 70px;
+		font-weight: bold;
+		float: right;
+		color: black;
+}
+
+		.upper1:hover {
+	color: crimson;
+}
+
+		.lower1:hover {
+	color: crimson;
+}
+
+		.text {
+		position: fixed;
+		float: right;
+		color: black;
+		font-family: Freight;
+		font-size: 35px;
+		padding-top: 20%;
+		padding-left: 20%;
+}
