@@ -7,7 +7,7 @@
     font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@700&display=swap');
 
 @font-face { /*바탕체*/
   font-family: 'Batang';
@@ -97,7 +97,7 @@
 		top: 0;
 		float: left;
 		color: black;
-		font-family: Batang, Chosun，‘Noto Serif SC’;
+		font-family: Batang, ‘Noto Serif SC’;
 		font-size: 17px;
 		margin-left: 120px;
 		padding-right: 10%;
