@@ -1,7 +1,13 @@
 /** fonts **/
 @font-face { /*조선일보명조체*/
   font-family: "Chosun";
-  src: url("https://belledcurve.github.io/fonts/ChosunNM.ttf") format("truetype");
+  src: url("https://belledcurve.github.io/fonts/ChosunNm.ttf") format("truetype");
+  font-weight: normal;
+} 
+
+@font-face { /*바탕체*/
+  font-family: "Batang";
+  src: url("https://belledcurve.github.io/fonts/BareunBatangM.ttf") format("truetype");
   font-weight: normal;
 } 
 
@@ -93,7 +99,7 @@
 		top: 0;
 		float: left;
 		color: black;
-		font-family: Chosun;
+		font-family: Batang, Chosun;
 		font-size: 17px;
 		margin-left: 170px;
 		padding-right: 20%;
