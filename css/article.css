@@ -30,7 +30,7 @@
 		object-fit: cover;
 		object-position: 50% 60%;
 		filter: grayscale(85%);
-		}
+}
 
 
 		.upper {
@@ -56,13 +56,9 @@
 		writing-mode: vertical-rl;
 }
 
-		.upper:hover {
-		color: black;
-		}
+		.upper:hover {color: black;}
 
-		.lower:hover {
-		color: black;
-		}
+		.lower:hover {color: black;}
 
 
 		aside {
@@ -72,7 +68,7 @@
 			padding-left: 0px;
 			margin-left: -15px;
 			z-index: 2;
-		}
+}
 
 
 		.head {
@@ -82,7 +78,8 @@
 		font-family: Ghana;
 		font-size: 35px;
 		padding-left: 20px;
-		padding-right: 15%;
+		padding-right: 0;
+		margin-right: 0;
 }
 	
 
