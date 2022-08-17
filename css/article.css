@@ -11,7 +11,7 @@
   src: url("../fonts/FreightBigProBold-Regular.ttf") format("truetype"),
        url("../fonts/FreightBigProBold-Regular.woff") format("woff"), 
        url("../fonts/FreightBigProBold-Regular.woff2") format("woff2");
-  font-weight: normal;
+  font-weight: bold;
 } 
 
 @font-face {
