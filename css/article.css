@@ -8,10 +8,6 @@
 }
 
 
-
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300&display=swap');
-
-
 @font-face { /*바탕체*/
   font-family: 'Batang';
   font-style: normal;
@@ -98,7 +94,7 @@
 		top: 0;
 		float: left;
 		color: black;
-		font-family: Batang, ‘Noto Serif SC’;
+		font-family: Batang;
 		font-size: 17px;
 		margin-left: 120px;
 		padding-right: 10%;
@@ -135,7 +131,4 @@
 		a:hover {text-decoration: none;}
 		a {text-decoration: none; color: black;}
 
-		.chinese {
-		font-family: 'Noto Serif SC', Serif;
-
-}
+	
