@@ -9,8 +9,9 @@
 
 @font-face { /* Chinese */
     font-family: 'Chinese';
-    src: url('../fonts/NotoSerifSC-Regular.woff') format('woff');
-    src: url('../fonts/NotoSerifSC-Regular.woff2') format('woff2');
+    src: url('../fonts/mingliu.woff') format('woff'),
+    	 url('../fonts/mingliu.woff2') format('woff2'),
+	 url('../fonts/mingliu.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -144,5 +145,5 @@
 		a {text-decoration: none; color: black;}
 
 		.chinese {
-		font-family: 'Noto Serif SC', serif;
+		font-family: Chinese;
 }
