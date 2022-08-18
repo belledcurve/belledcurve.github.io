@@ -6,22 +6,24 @@
 	<link rel="stylesheet" type="text/css" href="https://belledcurve.github.io/css/article.css">
 	
 	<title>Test</title>
+	<script>
+  (function(d) {
+    var config = {
+      kitId: 'bip2caq',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
 	<style type="text/css">
 		
-			@import url('http://fonts.googleapis.com/css2?family=Aboreto');
-		
-	@font-face { /*Jetbrains Mono*/
-  font-family: "Noto";
-  src: url("../fonts/NotoSerifSC-Regular.woff") format("woff"),
-	   url("https://belledcurve.github.io/fonts/NotoSerifSC-Regular.woff") format("woff");
-  font-weight: normal;
-} 
-
-	@import url('http://fonts.googleapis.com/css?family=Noto+Serif+SC');
 
 	
 .chinese {
-	font-family: Noto;
+	font-family: source-han-serif-sc,serif;
+font-weight: 600;
+font-style: normal;
 }
 		
 		.test {
