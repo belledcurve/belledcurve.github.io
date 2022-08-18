@@ -7,16 +7,8 @@
     font-style: normal;
 }
 
-@font-face { /* Chinese */
-    font-family: 'Chinese';
-    src: url('../fonts/mingliu.woff') format('woff'),
-    	 url('../fonts/mingliu.woff2') format('woff2'),
-	 url('../fonts/mingliu.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500&display=swap');
 
 
 @font-face { /*바탕체*/
@@ -145,5 +137,6 @@
 		a {text-decoration: none; color: black;}
 
 		.chinese {
-		font-family: Chinese;
+		font-family: font-family: 'Noto Serif SC', Serif;
+
 }
