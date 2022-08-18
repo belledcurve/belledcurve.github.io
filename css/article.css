@@ -7,7 +7,9 @@
     font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@700&display=swap');
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@700&display=swap" rel="stylesheet">
 
 @font-face { /*바탕체*/
   font-family: 'Batang';
@@ -133,3 +135,7 @@
 
 		a:hover {text-decoration: none;}
 		a {text-decoration: none; color: black;}
+
+		.chinese {
+		font-family: 'Noto Serif SC', serif;
+}
