@@ -7,9 +7,14 @@
     font-style: normal;
 }
 
-<link rel="preconnect" href="https://fonts.googleapis.com"> 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap" rel="stylesheet">
+@font-face { /* Chinese */
+    font-family: 'Chinese';
+    src: url('../fonts/NotoSerifSC-Regular.woff') format('woff');
+    src: url('../fonts/NotoSerifSC-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 @font-face { /*바탕체*/
   font-family: 'Batang';
@@ -137,5 +142,5 @@
 		a {text-decoration: none; color: black;}
 
 		.chinese {
-		font-family: 'Noto Serif SC', serif;
+		font-family: Chinese;
 }
