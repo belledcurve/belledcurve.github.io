@@ -7,6 +7,12 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'test';
+    src: url('../fonts/ChosunNm.ttf') format('truetype');
+    font-style: normal;
+}
+
 
 @font-face { /*바탕체*/
   font-family: 'Batang';
@@ -132,6 +138,6 @@
 		a {text-decoration: none; color: black;}
 
 		.chinese {
-		font-family: Chosun;
+		font-family: test;
 }
 	
