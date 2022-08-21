@@ -81,7 +81,6 @@
 		.text {
 		position: fixed;
 		left: 20%;
-		padding-right: 10%;
 		float: right;
 		color: black;
 		font-family: Freight, Ghana;
@@ -95,7 +94,7 @@
 		text-align: right;
 		position: relative;
 		float: right;
-		right: 10%;
+		padding-right: 25%;
 		width: 75%;
 		height: 54px;
 		line-height: 54px;	/** equal to height attribute **/
