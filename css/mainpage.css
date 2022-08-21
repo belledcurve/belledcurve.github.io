@@ -95,8 +95,8 @@
 		position: relative;
 		float: right;
 		width: 90%;
-		height: 54px;
-		line-height: 54px;	/** equal to height attribute **/
+		height: 3.6em;
+		line-height: 3.6em;	/** equal to height attribute **/
 		background-color: white;
 		z-index: 1001;
 }
