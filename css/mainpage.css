@@ -1,158 +1,115 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/mainpage.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- favicons -->
-		<link rel="apple-touch-icon" sizes="57x57" href="/favicon/tl.ico/apple-icon-57x57.png">
-		<link rel="apple-touch-icon" sizes="60x60" href="/favicon/tl.ico/apple-icon-60x60.png">
-		<link rel="apple-touch-icon" sizes="72x72" href="/favicon/tl.ico/apple-icon-72x72.png">
-		<link rel="apple-touch-icon" sizes="76x76" href="/favicon/tl.ico/apple-icon-76x76.png">
-		<link rel="apple-touch-icon" sizes="114x114" href="/favicon/tl.ico/apple-icon-114x114.png">
-		<link rel="apple-touch-icon" sizes="120x120" href="/favicon/tl.ico/apple-icon-120x120.png">
-		<link rel="apple-touch-icon" sizes="144x144" href="/favicon/tl.ico/apple-icon-144x144.png">
-		<link rel="apple-touch-icon" sizes="152x152" href="/favicon/tl.ico/apple-icon-152x152.png">
-		<link rel="apple-touch-icon" sizes="180x180" href="/favicon/tl.ico/apple-icon-180x180.png">
-		<link rel="icon" type="image/png" sizes="192x192"  href="/favicon/tl.ico/android-icon-192x192.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon/tl.ico/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="96x96" href="/favicon/tl.ico/favicon-96x96.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon/tl.ico/favicon-16x16.png">
-		<link rel="manifest" href="/favicon/tl.ico/manifest.json">
-		<meta name="msapplication-TileColor" content="#ffffff">
-		<meta name="msapplication-TileImage" content="/favicon/tl.ico/ms-icon-144x144.png">
-		<meta name="theme-color" content="#ffffff">
-	<!-- end of favicons -->
-	<title>Weekly Samuel</title>
-	
-</head>
-<body>
+/** fonts **/
+@font-face { /*조선일보명조체*/
+  font-family: "Chosun";
+  src: url("https://belledcurve.github.io/fonts/ChosunNm.ttf") format("truetype");
+  font-weight: normal;
+} 
 
-		<p style="color: crimson;">
-			<span class="text", style="font-size: 50px; padding-top: 10%;">주간 사무엘</span>		
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<span class="text">a weekly published thought lab.
-			<br> 
-			click 'WEEKLY' to look at the articles;
-			<br>
-			if you can't read Korean, ask the pageowner. 
-			<br>	
-			he's really never that busy.
-			<br>	
-			<span style="font-size: 20px; padding-top: 40%;" -->
-			@samuellee1030 -instagram-
-			</span>
-			</span>
-			<br>
-			<span class="upper">THOUGHT</span>
-			<br>
-			<span class="lower">Laboratory</span>
-			<a href= #articles>
-			<br>
-			<span class="upper1">WEEKLY</span>
-			<br>
-			<span class="lower1">Samuel</span>
-		</a>
-		</p>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<div class="article">
-	<a href="https://belledcurve.github.io/articles/9.2.0.html">
-		 <!--9.2.0; 새 제목-->
-	</a>
-</div>
-<br>
-<br>
-<br>
-<div class="article">
-	<a href="https://belledcurve.github.io/articles/9.2.0.html">
-		 <!--9.2.0; 새 제목-->
-	</a>
-</div>
-<br>
-<br>
-<br>
-<div class="article">
-	<a href="https://belledcurve.github.io/articles/9.2.0.html">
-		 <!--9.2.0; 새 제목-->
-	</a>
-</div>
-<br>
-<br>
-<br>
-<div class="article">
-	<a href="https://belledcurve.github.io/articles/9.2.0.html">
-		 <!--9.2.0; 새 제목-->
-	</a>
-</div>
-<br>
-<br>
-<br>
-<div class="article">
-	<a href="https://belledcurve.github.io/articles/9.2.0.html">
-		 <!--9.2.0; 새 제목-->
-	</a>
-</div>
-<br>
-<br>
-<br>
-<div class="article">
-	<a href="https://belledcurve.github.io/articles/9.1.0.html">
-		 9.1.0; 도시는 무엇으로 사는가
-	</a>
-</div>
-<br>
-<br>
-<br>
-<div class="article">
-	<a href="https://belledcurve.github.io/articles/8.5.1.html">
-		 8.5.1; 사람들, 그리고 사람들
-	</a>
-</div>
-<br>
-<br>
-<br>
-<div class="article">
-	<a href="https://belledcurve.github.io/articles/8.4.1.html">
-		 8.4.1; 가치관
-	</a>
-</div>
-<br>
-<br>
-<br>
-<div class="article">
-	<a href="https://belledcurve.github.io/articles/8.4.0.html">
-		 8.4.0; 주간 사무엘
-	</a>
-</div>
-</a>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<p id="articles"> </p>
+@font-face { /*Jetbrains Mono*/
+  font-family: "Jetbrains";
+  src: url("https://belledcurve.github.io/fonts/JetBrainsMono-Regular.ttf") format("truetype");
+  font-weight: normal;
+} 
 
-</body>
-</html>
+@font-face { /*Freight Big Pro Bold*/
+  font-family: "Freight";
+  src: url("../fonts/FreightBigProBold-Regular.ttf") format("truetype"),
+       url("../fonts/FreightBigProBold-Regular.woff") format("woff"), 
+       url("../fonts/FreightBigProBold-Regular.woff2") format("woff2");
+  font-weight: normal;
+} 
+
+@font-face {
+    font-family: 'Ghana';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ghanachoco.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/** end of fonts **/
+
+
+		.upper {
+		line-height: 250%;
+		word-spacing: -37px;
+		font-family: Freight;
+		font-size: 150px;
+		writing-mode: vertical-rl;
+}
+
+
+		.lower {
+		line-height: 150%;
+		word-spacing: -37px;
+		margin-top: -100%;
+		padding-top: -100%;
+		font-family: Freight;
+		font-size: 150px;
+		writing-mode: vertical-rl;
+}
+
+		.upper1 {
+		position: fixed;
+		top: 33%; left:  20%;
+		line-height: 0%;
+		font-family: Freight;
+		font-size: 70px;
+		float: right;
+		color: black;
+}
+
+
+		.lower1 {
+		position: fixed;
+		top: 35%; left:  20%;
+		line-height: 30%;
+		font-family: Freight;
+		font-size: 70px;
+		float: right;
+		color: black;
+}
+
+		.upper1:hover {
+		color: crimson;
+}
+
+		.lower1:hover {
+		color: crimson;
+}
+
+		.text {
+		position: fixed;
+		left: 20%;
+		padding-right: 10%;
+		float: right;
+		color: black;
+		font-family: Freight, Ghana;
+		font-size: 35px;
+		padding-top: 20%;
+}
+
+		.article{
+		font-family: Ghana;
+		color: black;
+		text-align: right;
+		position: relative;
+		float: right;
+		right: 10%;
+		width: 75%;
+		height: 54px;
+		line-height: 54px;	/** equal to height attribute **/
+		background-color: white;
+		z-index: 1001;
+}
+
+		a {
+			text-decoration: none;
+			color: black;
+}
+
+		a:hover {color: crimson;}
+
+		html {
+		scroll-behavior: smooth;
+}
