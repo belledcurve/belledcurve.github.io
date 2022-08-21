@@ -99,6 +99,7 @@
 		line-height: 3.8em;	/** equal to height attribute **/
 		background-color: white;
 		z-index: 1001;
+		margin: -10px;
 }
 
 		a {
